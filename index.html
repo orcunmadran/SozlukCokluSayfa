@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Örnek Mobil Uygulama</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    
+<!-- Sözlüğe Giriş Sayfası -->
+<div data-role="page" id="bir">
+
+	<div data-role="header">
+		<h1>Bilgisayar Terimleri Sözlüğü</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<form>
+            <input id="filter-for-listview" data-type="search" placeholder="Aranacak kelimeyi giriniz...">
+        </form>
+        <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+            <li><a href="#anakart" data-rel="dialog" data-transition="slidefade">Ana Kart</a></li>
+            <li><a href="#islemci" data-rel="dialog" data-transition="slidefade">İşlemci</a></li>
+        </ul>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="a">
+		<h4>Bilgisayar Terimleri Sözlüğü</h4>
+	</div><!-- /footer -->
+</div>
+<!-- Sözlüğe Giriş Sayfası -->
+    
+<!-- Ana Kart Sayfası -->
+<div data-role="page" id="anakart">
+
+	<div data-role="header">
+		<h1>Anakart</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>Anakart, bilgisayarın tüm iç ve dış donanım birimlerinin üzerindeki bağlantı portlarına bağlandığı, üzerinde elektronik devre elemanlarının bulunduğu bilgisayarın en temel parçasıdır. Aynı zamanda mainboard, <b>motherboard</b>, system board olarak ta ifade edilebilir.</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="a">
+		<h4>Anakart</h4>
+	</div><!-- /footer -->
+</div>
+<!-- Ana Kart Sayfası -->
+    
+<!-- İşlemci Sayfası -->
+<div data-role="page" id="islemci">
+
+	<div data-role="header">
+		<h1>Anakart</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>İşlemci....</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="a">
+		<h4>Ana Kart</h4>
+	</div><!-- /footer -->
+</div>
+<!-- İşlemci Sayfası -->
+    
+</body>
+    
+</html>

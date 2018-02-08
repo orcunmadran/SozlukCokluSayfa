@@ -1,2 +1,2 @@
-# SozlukCokluSayfa
-HTML5 JQuerymobile çoklu sayfa sözlük 
+JqueryMobile tabanlı sözlük uygulaması
+Uygulamada her bir sözcüğe tıklandığında sözcük ile ilgili açıklama bir mesaj olarak görüntülenmekte
